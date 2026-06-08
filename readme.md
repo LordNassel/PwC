@@ -141,8 +141,34 @@ Maximum Turnaround Latency   : 45.55s
 The results demonstrate stable execution under moderate concurrent load while maintaining perfect request completion rates.
 
 ---
+## 5. Bottleneck Analysis & Optimization Recommendations
 
-# 5. Deployment & Installation Guide
+---
+
+### Bottleneck Analysis
+
+The primary system bottleneck is **local LLM inference latency via Ollama**.
+
+The primary bottleneck is Local LLM Inference Latency via Ollama.
+Because LLM generation is inherently sequential and compute-heavy, concurrent requests cause a queueing effect, spiking the Max Latency as threads wait for GPU/CPU availability.
+
+### Optimization Suggestions
+
+1. Semantic Caching: Implement a cache (e.g., Redis) in Node 1. If a user asks a
+structurally identical or semantically similar question, return cached responses
+to bypass LLM inference entirely.
+2. Smaller / Quantized Models: Replace large models (e.g., Qwen2.5:14B) with lighter
+ alternatives such as Phi-3-Mini (3.8B), or apply 4-bit quantization to reduce
+ptoken generation latency and improve throughput under concurrency.
+Request Batching: Batch multiple retrieval or generation requests where possible
+to amortize inference overhead across tokens.
+4. KV-Cache Optimization: Improve key-value cache reuse in the inference backend to
+avoid recomputing attention states for shared prefixes.
+5. Async Queue Control: Introduce a bounded asynchronous queue to smooth traffic
+spikes and prevent GPU saturation during peak loads.
+
+--- 
+# 6. Deployment & Installation Guide
 
 The platform is distributed as a Docker-based application stack to ensure reproducible deployments and dependency consistency across environments.
 
