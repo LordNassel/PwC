@@ -4,7 +4,6 @@ services:
   ollama:
     image: ollama/ollama:latest
     container_name: ollama_server
-    # --- I removed the 'ports:' section here! ---
     volumes:
       - ollama_data:/root/.ollama
     networks:
