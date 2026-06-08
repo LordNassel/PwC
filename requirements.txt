@@ -1,0 +1,21 @@
+# Application interface layer
+streamlit>=1.32.0
+
+# Core orchestration engine and state-machine graph framework
+langchain-core>=0.2.0
+langgraph>=0.0.60
+
+# Text tokenization, chunking pipelines, and splitting mechanics
+langchain-text-splitters
+
+# Native integration adapters for model serving and storage engines
+langchain-ollama
+langchain-chroma
+
+# Underlying service clients and core storage runtime environments
+chromadb>=0.5.0
+ollama>=0.2.1
+
+# Document ingestion parsers and community integration loaders
+pypdf>=4.0.0
+langchain-community

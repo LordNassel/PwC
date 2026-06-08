@@ -1,0 +1,12 @@
+MICROSOFT CORPORATION
+ANNUAL FISCAL REVENUE REPORT
+
+BUSINESS OVERVIEW:
+Microsoft Corporation continued its aggressive enterprise expansion, powered primarily by structural growth in hyper-scale cloud computational deployments, hybrid workplace tooling setups, and commercial software licensing agreements.
+
+CONSOLIDATED TOTAL REVENUE SUMMARY:
+- Microsoft total revenue was 143000 million dollars in 2020. The onset of enterprise operational digitizations caused a surge in remote productivity demands and commercial server updates.
+- Microsoft total revenue was 168000 million dollars in 2021. Growth accelerated across the commercial cloud portfolio, anchored firmly by Azure infrastructure expansions and wider adoption of enterprise security tiers.
+
+SEGMENT REVENUE NOTES:
+Intelligent Cloud revenue grew rapidly, while the Personal Computing segment stayed resilient due to steady licensing demand and Xbox ecosystem content engagement.

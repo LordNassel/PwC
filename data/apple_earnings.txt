@@ -1,0 +1,12 @@
+APPLE INC.
+HARDWARE SEGMENT REVENUE REVIEW
+
+SEGMENT OVERVIEW:
+This document summarizes the financial trajectory of Apple Inc.'s core hardware division, spanning iPhone, Mac, iPad, Wearables, Home, and Accessories product lines. 
+
+HISTORICAL PERFORMANCE DATA:
+- Apple hardware revenue was 32000 million dollars in 2021. Growth during this fiscal year was primarily catalyzed by the global transition to 5G-enabled devices and heavy remote-work enterprise demand for updated silicon MacBooks.
+- Apple hardware revenue was 40000 million dollars in 2023. Despite macroeconomic tightening and minor logistical constraints, robust ecosystem lock-in and premium tier demand sustained historical peak margins across major markets.
+
+STRATEGIC OUTLOOK:
+The installed base of active devices hit a new historical high across all geographic segments, laying a strong foundation for sequential ecosystem monetization via adjacent digital services.

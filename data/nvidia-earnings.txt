@@ -1,0 +1,16 @@
+NVIDIA Corporation Financial Results - Q1 2024
+
+NVIDIA (NASDAQ: NVDA) today reported revenue for the first quarter ended April 28, 2024, of 26044 million dollars, up 262% from a year ago and up 18% from the previous quarter.
+
+GAAP earnings per diluted share was 5.98 dollars, up 629% from a year ago and up 21% from the previous quarter. Non-GAAP earnings per diluted share was 6.12 dollars, up 461% from a year ago and up 19% from the previous quarter.
+
+Segment Revenue Breakdown:
+- Data Center Revenue: 22600 million dollars (Record high, driven by Hopper GPU architecture demand)
+- Gaming Revenue: 2647 million dollars
+- Professional Visualization: 427 million dollars
+- Automotive and Robotics: 329 million dollars
+
+"The next industrial revolution has begun," said Jensen Huang, founder and CEO of NVIDIA. "Companies and countries are partnering with NVIDIA to shift the trillion-dollar traditional data centers to accelerated computing and build a new type of data center — AI factories."
+
+Operating expenses for Q1 2024 were 3497 million dollars, an increase of 39% from a year ago.
+Net income for the quarter was 14881 million dollars.
